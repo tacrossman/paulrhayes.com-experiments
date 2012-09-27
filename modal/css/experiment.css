@@ -29,7 +29,7 @@ pointer-events: auto;
 
 /* Content */
 .modal > div {
-width: 90%;
+width: 100%;
 height:100%;
 position: relative;
 background: rgba(255,255,255,0.8);
@@ -38,8 +38,6 @@ background: rgba(255,255,255,0.8);
 -webkit-animation: minimise 500ms linear;
 -moz-animation: minimise 500ms linear;
 
-/* Prettify */
-padding: 30px;
 }
 
 /* Override animation on modal open */
