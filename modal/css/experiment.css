@@ -29,10 +29,10 @@ pointer-events: auto;
 
 /* Content */
 .modal > div {
-width: 500px;
-background: #fff;
+width: 90%;
+height:100%;
 position: relative;
-margin: 10% auto;
+background: rgba(255,255,255,0.8);
 
 /* Default minimise animation */
 -webkit-animation: minimise 500ms linear;
@@ -40,13 +40,6 @@ margin: 10% auto;
 
 /* Prettify */
 padding: 30px;
-border-radius: 7px;
-box-shadow: 0 3px 20px rgba(0,0,0,0.9);
-background: #fff;
-background: -moz-linear-gradient(#fff, #ccc);
-background: -webkit-linear-gradient(#fff, #ccc);
-background: -o-linear-gradient(#fff, #ccc);
-text-shadow: 0 1px 0 #fff;
 }
 
 /* Override animation on modal open */
@@ -119,9 +112,9 @@ padding: 0 0 20px;
 /* Modal close link */
 .modal a[href="#close"] {
 position: absolute;
-right: 0;
-top: 0;
-color: transparent;
+right: 20px;
+top: 20px;
+color: #000;
 }
 
 /* Reset native styles */
@@ -136,8 +129,8 @@ display: block;
 
 /* Position */
 position: absolute;
-right: -10px;
-top: -10px;
+right: 30px;
+top: 30px;
 width: 1.5em;
 padding: 1px 1px 1px 2px;
 
@@ -167,7 +160,6 @@ outline: 1px solid #000;
 a.openModal {
 margin: 1em auto;
 display: block;
-width: 200px;
 background: #ccc;
 text-align: center;
 padding: 10px;
